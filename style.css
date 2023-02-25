@@ -1,0 +1,36 @@
+#heading{
+    text-align: center;
+}
+.container{
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+
+/* Submit button */
+#submitBtn{
+    width: 100px;
+    height: 30px;
+    font-size: 1.2em;
+    position: relative;
+    background-color: rgb(34, 201, 101);
+    border: 0 solid;
+    border-radius: 15px;
+}
+#submitBtn:hover{
+    background-color: rgb(28, 175, 87);
+}
+#submitBtn:active{
+    border: 1px solid;
+}
+
+#myLabel{
+    position: absolute;
+    top: 50%;
+}
